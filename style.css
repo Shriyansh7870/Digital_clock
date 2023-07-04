@@ -1,0 +1,535 @@
+body {
+  background-color: #3D087B;
+   width:auto;
+   height: auto;
+}
+.Main {
+ position: relative;
+}
+.clock{
+ margin-left: 120px;
+}
+.alarm {
+  position: relative;
+  left:120px;
+  top:20px;
+  height: 320px;
+  width: 560px;
+ background-color: white;
+  border: 2px solid #EDEDED;
+  border-radius: 15px;
+}
+.mrng h3 {
+  position: absolute;
+  left: 120px;
+  top:410px;
+  background-color: #693e9bde;
+  height: 50px;
+  width: 540px;
+  border: 2px solid #693e9bde;
+  border-radius: 10px;
+  padding: 10px;
+  color: #FFFFFF;
+  font: normal normal 900 27px/34px Bauhaus Hv BT;
+}
+.wake{
+  position: relative;
+  top:10px;
+  left:6px;
+  height: 50px;
+  width: 50px;
+  background-color:white;
+  background-image: url(./wake_up.svg);
+  background-size: cover;
+}
+#set{
+  position: absolute;
+  color: #8A11BF;
+  left:100px;
+  top:-5px;
+  width: 300px;
+  font-size: 20px;
+}
+#set1{
+  position:absolute;
+  top:5px;
+  width:240px;
+  height:40px;
+  left:280px;
+ font-size: 15px;
+  border-radius: 5px;
+}
+#line{
+  position: relative;
+  top:10px;
+  color: #8A11BF;
+  left:30px;
+  font-size: larger;
+  font-weight: bolder;
+  margin: auto;
+}
+.lunch{
+  position: relative;
+  top:10px;
+  left:6px;
+  height: 50px;
+  width: 50px;
+  background-color:white;
+  background-image: url(./lunch_time.svg);
+  background-size: cover;
+}
+#lunch1{
+  position: absolute;
+  color: #8A11BF;
+  background-color: white;
+  left:100px;
+  top:-5px;
+  width: 200px;
+  font-size: 20px;
+}
+#lun1{
+  position:absolute;
+  top:5px;
+  width:240px;
+  height:40px;
+  left:280px;
+  background-color: white;
+  border-radius: 5px;
+}
+.nap{
+  position: relative;
+  top:10px;
+  left:6px;
+  height: 50px;
+  width: 50px;
+  background-color:white;
+  background-image: url(./nap_time.svg);
+  background-size: cover;
+}
+#nap1{
+  position: absolute;
+  color: #8A11BF;
+  background-color: white;
+  left:100px;
+  top:-5px;
+  width: 200px;
+  font-size: 20px;
+}
+#N1{
+  position:absolute;
+  top:5px;
+  width:240px;
+  height:40px;
+  left:280px;
+  background-color: white;
+  border-radius: 5px;
+}
+.night{
+  position: relative;
+  top:10px;
+  left:6px;
+  height: 50px;
+  width: 50px;
+  background-color:white;
+  background-image: url(./nap_time.svg);
+  background-size: cover;
+}
+#night1{
+  position: absolute;
+  color: #8A11BF;
+  background-color: white;
+  left:100px;
+  top:-5px;
+  width: 200px;
+  font-size: 20px;
+}
+#Ni{
+  position:absolute;
+  top:5px;
+  width:240px;
+  height:40px;
+  left:280px;
+  background-color: white;
+  border-radius: 5px; 
+}
+#button1{
+  position: relative;
+  border-radius: 10px;
+  height:50px;
+  width: 250px;
+  font-weight: bolder;
+  top:120px;
+  left:120px;
+   font-size: 20px;
+   color:#8A11BF;
+   background-image:linear-gradient(to right,#6E54EC,#CB52F8,#FC5EFF,#F1A7C5);
+}
+#button1:hover{
+   background-image:linear-gradient(to right,#7863e1,#a32fce,#d112d4,#b81053); 
+}
+#button1::before{
+  content:"Set Alaram"
+ 
+}
+#button1:hover::before
+{
+  display:none;
+}
+#button1:hover::after
+{
+ content:"party time!"
+}
+.con{
+  position: relative;
+  height:130px;
+  width: 250px;
+  left:430px;
+  top:50px;
+  background-color:#cf8fea;
+  border-radius: 10px;
+}
+#con1{
+  text-align: center;
+  font-weight: bolder;
+  color:#9e10d1
+}
+#con2{
+  text-align: center;
+  font-weight: bolder;
+  color:#9e10d1
+}
+#con3{
+  text-align: center;
+  font-weight: bolder;
+  color:#9e10d1
+}
+#con4{
+  text-align: center;
+  font-weight: bolder;
+  color:#9e10d1
+}
+/*----Second Part....*/
+
+
+#box1{
+  left: 10px;
+  font-size: 24px; 
+  gap:10px;
+
+}
+#box2{
+  text-align: center;
+  font-size: 23px;
+  width: 60px;
+  height: 55px;
+  border-radius: 5px;
+  background-color:#d6b6e5;
+}
+#box3{
+  text-align: center;
+  font-size: 23px;
+  width: 60px;
+  height: 55px;
+  border-radius: 5px;
+  background-color: #d6b6e5;
+}
+#box4{
+  text-align: center;
+  font-size: 23px;
+  width: 60px;
+  height: 55px;
+  border-radius: 5px;
+  background-color: #d6b6e5;
+}
+#box5{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+  font-size: 30px;
+  width: 60px;
+  height: 55px;
+  border-radius: 5px;
+  background-color:#d6b6e5;
+  opacity: 1;
+  z-index: 3;
+}
+.dot{
+  font-size: 36px;
+  color: #CB52F8;
+}
+
+.clock2{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 80px;
+  width: 530px;
+  align-items: center;
+ top:-580px;
+ left:780px;
+ background-color: white;
+ border-radius: 10px; 
+}
+.shadow{
+  width: 420px;
+  height: 70px;
+  background-color: #e8e6eb;
+  /* border: 1px solid rgb(141, 133, 148); */
+  border-radius: 10px;
+  position: absolute;
+  left: 850px;
+  top: 55px;
+  opacity: 0.22;
+  z-index: -2;
+
+}
+.shadow1{
+  background-color: #eaeaea;
+    width: 450px;
+    height: 55px;
+    /* border: 1px solid #a668e3; */
+    border-radius: 10px;
+    position: absolute;
+    left: 830px;
+    top: 60px;
+    z-index:-1;
+    opacity: 0.7;
+
+
+}
+
+.balcony{
+  position: absolute;
+  left: 780px;
+  top:260px;
+}
+.food{
+  position: absolute;
+  left: 780px;
+ top:120px;
+}
+.food h3 {
+  background-color: #d5ced8;
+  height: 50px;
+  width: 510px;
+  text-align: center;
+  color: #8E53F0;
+  padding: 20px;
+  border-radius: 10px;
+  font: normal normal 900 25px/35px Bauhaus Hv BT;
+}
+
+
+
+/* MEDIA QUERY */
+/* ----------MEDIA QUERRY--------------*/
+@media (max-width: 600px) {
+  body {
+    position: relative;
+    background-color: #6511c5;
+  }
+  .clock {
+      position: relative;
+      left: 80px;
+      top: 10px;
+  }
+
+  #clock1 {
+      height: 60px;
+      width: 90px;
+  }
+  .clock2 {
+      width: 330px;
+      height: 80px;
+      font-size: 20px;
+      position: absolute;
+      left: 60px;
+      top: 100px;
+
+  }
+
+  .shadow{
+      width: 240px;
+      height: 60px;
+      position: absolute;
+      left: 100px;
+      top: 135px;
+      z-index: -1;
+  }
+  .shadow1 {
+      width: 280px;
+      height: 38px;
+      position: absolute;
+      left: 90px;
+      top: 150px;
+      z-index: -2;
+  }
+
+  
+  .food {
+      position: absolute;
+      top: 190px;
+      left: 60px;
+  }
+
+  .food h3 {
+
+      height: 50px;
+      width: 300px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: bolder;
+  }
+
+  
+  .alarm {
+      height: 230px;
+      width: 340px;
+      position: absolute;
+      left: 60px;
+      top: 310px;
+
+  }
+
+  #line {
+      position: relative;
+      top: 20px;
+      left: 20px;
+      font-size: 18px;
+      font-weight: bolder;
+      margin: auto;
+  }
+
+  .wake {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: 20px;
+  }
+
+  #set {
+    position: absolute;
+      left: 50px;
+      font-size: 20px;
+  }
+
+  #set1 {
+    position: relative;
+    left: 190px;
+    height: 20px;
+    width: 120px;
+    font-size: 15px;
+   
+  }
+
+  .lunch {
+      position: relative;
+      width: 30px;
+      height: 30px;
+      top: 20px;
+  }
+
+  #lunch1 {
+      position: absolute;
+      left: 50px;
+      font-size: 20px;
+  }
+
+  #lun1 {
+      position: absolute;
+      left: 190px;
+      height: 20px;
+      width: 120px;
+      font-size: 15px;
+  }
+
+  .nap {
+      position: relative;
+      top: 27px;
+      left: 15px;
+      width: 25px;
+      height: 25px;
+  }
+
+  #nap1 {
+      position: absolute;
+      left: 45px;
+      font-size: 21px;
+  }
+
+  #N1 {
+      position: absolute;
+      left: 190px;
+      height: 20px;
+      width: 120px;
+      font-size: 15px;
+  }
+
+  .night {
+      position: relative;
+      top: 25px;
+      left: 10px;
+      width: 25px;
+      height: 25px;
+  }
+
+  #night1 {
+      position: absolute;
+      left: 50px;
+      font-size: 20px;
+  }
+
+  #Ni {
+      position: absolute;
+      left: 190px;
+      height: 20px;
+      width: 120px;
+      font-size: 15px;
+  }
+
+  .balcony {
+      position: relative;
+      top: 310px;
+      left: 60px;
+  }
+  .balcony1{
+    position:absolute;
+    width: 340px;
+    height: 250px;
+  }
+  
+  .mrng {
+      position: absolute;
+      top: 370px;
+    left: -50px;
+      
+
+  }
+
+  .mrng h3 {
+      background-color: #693e9bde;
+      height: 40px;
+      width: 300px;
+      font-size: 18px;
+      text-align: center
+  }
+  .con {
+      position: relative;
+      height: 120px;
+      width: 300px;
+      left: 60px;
+      top: 820px;
+      font-size:16px;
+      text-align: center;
+      padding: auto;
+  }
+ #button1{
+    position: relative;
+    height:40px;
+    width: 200px;
+    top:820px;
+    left: 90px;
+     font-size: 16px;
+  }
+}
