@@ -324,7 +324,7 @@ body {
 
 /* MEDIA QUERY */
 /* ----------MEDIA QUERRY--------------*/
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   body {
     position: relative;
     background-color: #6511c5;
