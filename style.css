@@ -524,3 +524,214 @@ body {
      font-size: 16px;
   }
 }
+@media (min-width:650px) and (max-width:900px) 
+  {
+    body {
+      position: relative;
+      background-color: #6511c5;
+    }
+    .First {
+        position: relative;
+        left: 80px;
+        top: 10px;
+    }
+    #c1 {
+        height: 80px;
+        width: 190px;
+    }
+    .Another_clock {
+        width: 620px;
+        height: 90px;
+        font-size: 30px;
+        position: absolute;
+        left: 70px;
+        top: 90px;
+  
+    }
+    .shadow{
+        width: 600px;
+        height: 60px;
+        position: absolute;
+        left: 100px;
+        top: 135px;
+        z-index: -1;
+    }
+    .shadow1 {
+        width: 570px;
+        height: 45px;
+        position: absolute;
+        left: 90px;
+        top: 150px;
+        z-index: -2;
+    }
+  
+    
+    .food {
+        position: absolute;
+        top: 190px;
+        left: 60px;
+    }
+  
+    .food h3 {
+  
+        height: 60px;
+        width: 630px;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bolder;
+    }
+    .Clock {
+        height: 320px;
+        width: 650px;
+        position: absolute;
+        left: 60px;
+        top: 340px;
+  
+    }
+  
+    #single {
+        position: relative;
+        top: 20px;
+        left: 20px;
+        font-size: 24px;
+        font-weight: bolder;
+        margin: auto;
+    }
+  
+    .Pep {
+      position: relative;
+      width: 50px;
+      height: 50px;
+      top: 5px;
+    }
+  
+    #Pre_id {
+      position: absolute;
+        left: 80px;
+        font-size: 35px;
+    }
+  
+    #Prep_id1 {
+      position: relative;
+      left: 370px;
+      height: 30px;
+      width: 250px;
+      top: 15PX;
+      font-size: 15px;
+     
+    }
+  
+    .Prep2 {
+      position: relative;
+      width: 50px;
+      height: 50px;
+      top: 5px;
+    }
+  
+    #Prep2_id {
+      position: absolute;
+      left: 80px;
+      font-size: 35px;
+    }
+  
+    #Prep_id2 {
+      position: relative;
+      left: 370px;
+      height: 30px;
+      width: 250px;
+      top: 15PX;
+      font-size: 15px;
+    }
+  
+    .Prep3 {
+      position: relative;
+      width: 50px;
+      height: 50px;
+      top: 5px;
+    }
+  
+    #Prep_id3 {
+      position: absolute;
+      left: 80px;
+      font-size: 35px;
+    }
+  
+    #Prep3_id {
+      position: relative;
+      left: 370px;
+      height: 30px;
+      width: 250px;
+      top: 15PX;
+      font-size: 15px;
+    }
+  
+    .Prep4 {
+      position: relative;
+      width: 50px;
+      height: 50px;
+      top: 5px;
+    }
+  
+    #Prep_id4 {
+      position: absolute;
+        left: 80px;
+        font-size: 35px;
+    }
+  
+    #Prep4_id {
+      position: relative;
+      left: 370px;
+      height: 30px;
+      width: 250px;
+      top: 15PX;
+      font-size: 15px;
+    }
+  
+    .Image_change {
+        position: relative;
+        top: 420px;
+        left: 60px;
+    }
+    .change2{
+      position:absolute;
+      width: 650px;
+      height: 300px;
+    }
+    
+    .Text {
+        position: absolute;
+        top: 590px;
+      /* left: 10px; */
+      left:-35px;
+        
+  
+    }
+  
+    .Text h3 {
+        background-color: #693e9bde;
+        height: 40px;
+        width: 580px;
+        font-size: 28px;
+        text-align: center
+    }
+    .container2 {
+        position: relative;
+        height: 120px;
+        width: 300px;
+        right: 60px;
+        top: 940px;
+        font-size:16px;
+        text-align: center;
+        padding: auto;
+    }
+   #Onclick{
+      position: relative;
+      height:60px;
+      width: 320px;
+      top:1050px;
+      left: 90px;
+       font-size: 16px;
+    }
+  }
+
+ 
