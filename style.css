@@ -3,13 +3,13 @@ body {
    width:auto;
    height: auto;
 }
-.Main {
+.Container {
  position: relative;
 }
-.clock{
+.First{
  margin-left: 120px;
 }
-.alarm {
+.Clock {
   position: relative;
   left:120px;
   top:20px;
@@ -19,7 +19,7 @@ body {
   border: 2px solid #EDEDED;
   border-radius: 15px;
 }
-.mrng h3 {
+.Text h3 {
   position: absolute;
   left: 120px;
   top:410px;
@@ -32,7 +32,7 @@ body {
   color: #FFFFFF;
   font: normal normal 900 27px/34px Bauhaus Hv BT;
 }
-.wake{
+.Pep{
   position: relative;
   top:10px;
   left:6px;
@@ -42,7 +42,7 @@ body {
   background-image: url(./wake_up.svg);
   background-size: cover;
 }
-#set{
+#Pre_id{
   position: absolute;
   color: #8A11BF;
   left:100px;
@@ -50,7 +50,7 @@ body {
   width: 300px;
   font-size: 20px;
 }
-#set1{
+#Prep_id1{
   position:absolute;
   top:5px;
   width:240px;
@@ -59,7 +59,7 @@ body {
  font-size: 15px;
   border-radius: 5px;
 }
-#line{
+#single{
   position: relative;
   top:10px;
   color: #8A11BF;
@@ -68,7 +68,7 @@ body {
   font-weight: bolder;
   margin: auto;
 }
-.lunch{
+.Prep2{
   position: relative;
   top:10px;
   left:6px;
@@ -78,7 +78,7 @@ body {
   background-image: url(./lunch_time.svg);
   background-size: cover;
 }
-#lunch1{
+#Prep2_id{
   position: absolute;
   color: #8A11BF;
   background-color: white;
@@ -87,7 +87,7 @@ body {
   width: 200px;
   font-size: 20px;
 }
-#lun1{
+#Prep_id2{
   position:absolute;
   top:5px;
   width:240px;
@@ -96,7 +96,7 @@ body {
   background-color: white;
   border-radius: 5px;
 }
-.nap{
+.Prep3{
   position: relative;
   top:10px;
   left:6px;
@@ -106,7 +106,7 @@ body {
   background-image: url(./nap_time.svg);
   background-size: cover;
 }
-#nap1{
+#Prep_id3{
   position: absolute;
   color: #8A11BF;
   background-color: white;
@@ -115,7 +115,7 @@ body {
   width: 200px;
   font-size: 20px;
 }
-#N1{
+#Prep3_id{
   position:absolute;
   top:5px;
   width:240px;
@@ -124,7 +124,7 @@ body {
   background-color: white;
   border-radius: 5px;
 }
-.night{
+.Prep4{
   position: relative;
   top:10px;
   left:6px;
@@ -134,7 +134,7 @@ body {
   background-image: url(./nap_time.svg);
   background-size: cover;
 }
-#night1{
+#Prep_id4{
   position: absolute;
   color: #8A11BF;
   background-color: white;
@@ -143,7 +143,7 @@ body {
   width: 200px;
   font-size: 20px;
 }
-#Ni{
+#Prep4_id{
   position:absolute;
   top:5px;
   width:240px;
@@ -152,7 +152,7 @@ body {
   background-color: white;
   border-radius: 5px; 
 }
-#button1{
+#Onclick{
   position: relative;
   border-radius: 10px;
   height:50px;
@@ -164,22 +164,22 @@ body {
    color:#8A11BF;
    background-image:linear-gradient(to right,#6E54EC,#CB52F8,#FC5EFF,#F1A7C5);
 }
-#button1:hover{
+#Onclick:hover{
    background-image:linear-gradient(to right,#7863e1,#a32fce,#d112d4,#b81053); 
 }
-#button1::before{
+#Onclick::before{
   content:"Set Alaram"
  
 }
-#button1:hover::before
+#Onclick:hover::before
 {
   display:none;
 }
-#button1:hover::after
+#Onclick:hover::after
 {
  content:"party time!"
 }
-.con{
+.container2{
   position: relative;
   height:130px;
   width: 250px;
@@ -208,16 +208,14 @@ body {
   font-weight: bolder;
   color:#9e10d1
 }
-/*----Second Part....*/
 
-
-#box1{
+#b1{
   left: 10px;
   font-size: 24px; 
   gap:10px;
 
 }
-#box2{
+#b2{
   text-align: center;
   font-size: 23px;
   width: 60px;
@@ -225,7 +223,7 @@ body {
   border-radius: 5px;
   background-color:#d6b6e5;
 }
-#box3{
+#b3{
   text-align: center;
   font-size: 23px;
   width: 60px;
@@ -233,7 +231,7 @@ body {
   border-radius: 5px;
   background-color: #d6b6e5;
 }
-#box4{
+#b4{
   text-align: center;
   font-size: 23px;
   width: 60px;
@@ -241,7 +239,7 @@ body {
   border-radius: 5px;
   background-color: #d6b6e5;
 }
-#box5{
+#b5{
   display: flex;
  justify-content: center;
  align-items: center;
@@ -253,12 +251,12 @@ body {
   opacity: 1;
   z-index: 3;
 }
-.dot{
+.dt{
   font-size: 36px;
   color: #CB52F8;
 }
 
-.clock2{
+.Another_clock{
   display: flex;
   position: relative;
   flex-direction: row;
@@ -275,7 +273,7 @@ body {
   width: 420px;
   height: 70px;
   background-color: #e8e6eb;
-  /* border: 1px solid rgb(141, 133, 148); */
+ 
   border-radius: 10px;
   position: absolute;
   left: 850px;
@@ -288,7 +286,7 @@ body {
   background-color: #eaeaea;
     width: 450px;
     height: 55px;
-    /* border: 1px solid #a668e3; */
+    
     border-radius: 10px;
     position: absolute;
     left: 830px;
@@ -299,7 +297,7 @@ body {
 
 }
 
-.balcony{
+.Image_change{
   position: absolute;
   left: 780px;
   top:260px;
@@ -320,26 +318,22 @@ body {
   font: normal normal 900 25px/35px Bauhaus Hv BT;
 }
 
-
-
-/* MEDIA QUERY */
 /* ----------MEDIA QUERRY--------------*/
-@media (max-width: 650px) {
+@media (max-width: 620px) {
   body {
     position: relative;
     background-color: #6511c5;
   }
-  .clock {
+  .First {
       position: relative;
       left: 80px;
       top: 10px;
   }
-
-  #clock1 {
+  #c1 {
       height: 60px;
       width: 90px;
   }
-  .clock2 {
+  .Another_clock {
       width: 330px;
       height: 80px;
       font-size: 20px;
@@ -348,7 +342,6 @@ body {
       top: 100px;
 
   }
-
   .shadow{
       width: 240px;
       height: 60px;
@@ -381,9 +374,7 @@ body {
       font-size: 18px;
       font-weight: bolder;
   }
-
-  
-  .alarm {
+  .Clock {
       height: 230px;
       width: 340px;
       position: absolute;
@@ -392,7 +383,7 @@ body {
 
   }
 
-  #line {
+  #single {
       position: relative;
       top: 20px;
       left: 20px;
@@ -401,20 +392,20 @@ body {
       margin: auto;
   }
 
-  .wake {
+  .Pep {
     position: relative;
     width: 30px;
     height: 30px;
     top: 20px;
   }
 
-  #set {
+  #Pre_id {
     position: absolute;
       left: 50px;
       font-size: 20px;
   }
 
-  #set1 {
+  #Prep_id1 {
     position: relative;
     left: 190px;
     height: 20px;
@@ -423,20 +414,20 @@ body {
    
   }
 
-  .lunch {
+  .Prep2 {
       position: relative;
       width: 30px;
       height: 30px;
       top: 20px;
   }
 
-  #lunch1 {
+  #Prep2_id {
       position: absolute;
       left: 50px;
       font-size: 20px;
   }
 
-  #lun1 {
+  #Prep_id2 {
       position: absolute;
       left: 190px;
       height: 20px;
@@ -444,7 +435,7 @@ body {
       font-size: 15px;
   }
 
-  .nap {
+  .Prep3 {
       position: relative;
       top: 27px;
       left: 15px;
@@ -452,13 +443,13 @@ body {
       height: 25px;
   }
 
-  #nap1 {
+  #Prep_id3 {
       position: absolute;
       left: 45px;
       font-size: 21px;
   }
 
-  #N1 {
+  #Prep3_id {
       position: absolute;
       left: 190px;
       height: 20px;
@@ -466,7 +457,7 @@ body {
       font-size: 15px;
   }
 
-  .night {
+  .Prep4 {
       position: relative;
       top: 25px;
       left: 10px;
@@ -474,13 +465,13 @@ body {
       height: 25px;
   }
 
-  #night1 {
+  #Prep_id4 {
       position: absolute;
       left: 50px;
       font-size: 20px;
   }
 
-  #Ni {
+  #Prep4_id {
       position: absolute;
       left: 190px;
       height: 20px;
@@ -488,18 +479,18 @@ body {
       font-size: 15px;
   }
 
-  .balcony {
+  .Image_change {
       position: relative;
       top: 310px;
       left: 60px;
   }
-  .balcony1{
+  .change2{
     position:absolute;
     width: 340px;
     height: 250px;
   }
   
-  .mrng {
+  .Text {
       position: absolute;
       top: 370px;
     left: -50px;
@@ -507,14 +498,14 @@ body {
 
   }
 
-  .mrng h3 {
+  .Text h3 {
       background-color: #693e9bde;
       height: 40px;
       width: 300px;
       font-size: 18px;
       text-align: center
   }
-  .con {
+  .container2 {
       position: relative;
       height: 120px;
       width: 300px;
@@ -524,7 +515,7 @@ body {
       text-align: center;
       padding: auto;
   }
- #button1{
+ #Onclick{
     position: relative;
     height:40px;
     width: 200px;
