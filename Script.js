@@ -51,7 +51,7 @@ setInterval(()=>
 
 },1000)
 
-let Balcony1 =document.getElementsByClassName('balcony1')
+let Balcony1 =document.getElementsByClassName('change2')
 let good = document.getElementById('Good')
 let inputValue=document.getElementsByClassName('Drop') 
 function callFunction()
@@ -88,3 +88,4 @@ function callFunction()
 		Balcony1[0].src='./sleep.svg'
 }
 }
+
