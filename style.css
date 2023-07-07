@@ -3,15 +3,13 @@ body {
    width:auto;
    height: auto;
 }
-.Container {
- position: relative;
-}
+
 .First{
  margin-left: 120px;
 }
 .Clock {
   position: relative;
-  left:120px;
+  left:5px;
   top:20px;
   height: 320px;
   width: 560px;
@@ -19,18 +17,25 @@ body {
   border: 2px solid #EDEDED;
   border-radius: 15px;
 }
-.Text h3 {
-  position: absolute;
-  left: 120px;
-  top:410px;
+.Text {
+  position: relative;
+  left: 140px;
+  top:40px;
   background-color: #693e9bde;
-  height: 50px;
-  width: 540px;
+  height: 80px;
+  width: 520px;
   border: 2px solid #693e9bde;
   border-radius: 10px;
-  padding: 10px;
+  /* padding: 10px; */
   color: #FFFFFF;
   font: normal normal 900 27px/34px Bauhaus Hv BT;
+}
+#Good{
+  position: absolute;
+  text-align: center;
+  width: 450px;
+  height: 100px;
+  font-size: 20px;
 }
 .Pep{
   position: relative;
@@ -158,8 +163,8 @@ body {
   height:50px;
   width: 250px;
   font-weight: bolder;
-  top:120px;
-  left:120px;
+  top:50px;
+  left:130px;
    font-size: 20px;
    color:#8A11BF;
    background-image:linear-gradient(to right,#6E54EC,#CB52F8,#FC5EFF,#F1A7C5);
@@ -184,7 +189,7 @@ body {
   height:130px;
   width: 250px;
   left:430px;
-  top:50px;
+  top:-15px;
   background-color:#cf8fea;
   border-radius: 10px;
 }
@@ -258,13 +263,13 @@ body {
 
 .Another_clock{
   display: flex;
-  position: relative;
+  position: absolute;
   flex-direction: row;
   justify-content: space-around;
   height: 80px;
   width: 530px;
   align-items: center;
- top:-580px;
+ top:25px;
  left:780px;
  background-color: white;
  border-radius: 10px; 
@@ -323,10 +328,12 @@ body {
   body {
     position: relative;
     background-color: #6511c5;
+    overflow-x:hidden ;
+    overflow-y: scroll;
   }
   .First {
       position: relative;
-      left: 80px;
+      left: 10px;
       top: 10px;
   }
   #c1 {
@@ -334,19 +341,19 @@ body {
       width: 90px;
   }
   .Another_clock {
-      width: 330px;
+      width: 300px;
       height: 80px;
       font-size: 20px;
       position: absolute;
-      left: 60px;
+      left: 20px;
       top: 100px;
 
   }
   .shadow{
-      width: 240px;
+      width: 280px;
       height: 60px;
       position: absolute;
-      left: 100px;
+      left: 30px;
       top: 135px;
       z-index: -1;
   }
@@ -354,7 +361,7 @@ body {
       width: 280px;
       height: 38px;
       position: absolute;
-      left: 90px;
+      left: 30px;
       top: 150px;
       z-index: -2;
   }
@@ -363,23 +370,23 @@ body {
   .food {
       position: absolute;
       top: 190px;
-      left: 60px;
+      left: 10px;
   }
 
   .food h3 {
 
       height: 50px;
-      width: 300px;
+      width: 280px;
       text-align: center;
       font-size: 18px;
       font-weight: bolder;
   }
   .Clock {
       height: 230px;
-      width: 340px;
+      width: 320px;
       position: absolute;
-      left: 60px;
-      top: 310px;
+      left:-120px;
+      top: 300px;
 
   }
 
@@ -409,7 +416,7 @@ body {
     position: relative;
     left: 190px;
     height: 20px;
-    width: 120px;
+    width: 100px;
     font-size: 15px;
    
   }
@@ -431,7 +438,7 @@ body {
       position: absolute;
       left: 190px;
       height: 20px;
-      width: 120px;
+      width: 100px;
       font-size: 15px;
   }
 
@@ -453,7 +460,7 @@ body {
       position: absolute;
       left: 190px;
       height: 20px;
-      width: 120px;
+      width: 90px;
       font-size: 15px;
   }
 
@@ -475,52 +482,51 @@ body {
       position: absolute;
       left: 190px;
       height: 20px;
-      width: 120px;
+      width: 90px;
       font-size: 15px;
   }
 
   .Image_change {
       position: relative;
-      top: 310px;
-      left: 60px;
+      top: 240px;
+      left: 10px;
   }
   .change2{
     position:absolute;
-    width: 340px;
+    width: 320px;
     height: 250px;
   }
   
   .Text {
-      position: absolute;
-      top: 370px;
-    left: -50px;
-      
+      position: relative;
+      top: 720px;
+      left: 10px;
+     width: 300px; 
 
   }
 
-  .Text h3 {
+  #Good {
       background-color: #693e9bde;
-      height: 40px;
-      width: 300px;
-      font-size: 18px;
+      height: 20px;
+      width: 220px;
+      font-size: 16px;
       text-align: center
   }
   .container2 {
       position: relative;
-      height: 120px;
-      width: 300px;
-      left: 60px;
-      top: 820px;
-      font-size:16px;
+      height: 100px;
+      width: 280px;
+      left: 20px;
+      top: 740px;
+      font-size:12px;
       text-align: center;
-      padding: auto;
   }
  #Onclick{
     position: relative;
     height:40px;
     width: 200px;
-    top:820px;
-    left: 90px;
+    top:730px;
+    left: 20px;
      font-size: 16px;
   }
 }
@@ -584,7 +590,7 @@ body {
         height: 320px;
         width: 650px;
         position: absolute;
-        left: 60px;
+        left: -120px;
         top: 340px;
   
     }
@@ -689,28 +695,30 @@ body {
   
     .Image_change {
         position: relative;
-        top: 420px;
-        left: 60px;
+        top: 540px;
+        left: 70px;
+         width: 950px;
+         height: 300px;
     }
     .change2{
-      position:absolute;
-      width: 650px;
-      height: 300px;
+      position:relative;
+      
     }
     
     .Text {
         position: absolute;
-        top: 590px;
+        top: 700px;
       /* left: 10px; */
-      left:-35px;
+      left:80px;
+      width: 620px;
+      height: 90px;
         
   
     }
   
     .Text h3 {
         background-color: #693e9bde;
-        height: 40px;
-        width: 580px;
+       
         font-size: 28px;
         text-align: center
     }
@@ -719,7 +727,7 @@ body {
         height: 120px;
         width: 300px;
         right: 60px;
-        top: 940px;
+        top: 1050px;
         font-size:16px;
         text-align: center;
         padding: auto;
@@ -728,10 +736,8 @@ body {
       position: relative;
       height:60px;
       width: 320px;
-      top:1050px;
+      top:1150px;
       left: 90px;
        font-size: 16px;
     }
   }
-
- 
